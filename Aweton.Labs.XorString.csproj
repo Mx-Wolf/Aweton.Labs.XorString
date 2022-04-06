@@ -16,7 +16,7 @@
 
   <PropertyGroup>
     <PackageId>Aweton.Labs.XorString</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Maxim Volkov</Authors>
     <Description>Helps to prepare mice to run</Description>
     <Copyright>(C) 2022 Proximatics Ltd</Copyright>
