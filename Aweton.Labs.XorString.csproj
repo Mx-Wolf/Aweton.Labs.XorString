@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,10 +16,19 @@
 
   <PropertyGroup>
     <PackageId>Aweton.Labs.XorString</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Maxim Volkov</Authors>
     <Description>Helps to prepare mice to run</Description>
     <Copyright>(C) 2022 Proximatics Ltd</Copyright>
-    
+    <PackageProjectUrl>https://github.com/Mx-Wolf/Aweton.Labs.XorString</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Mx-Wolf/Aweton.Labs.XorString</RepositoryUrl>
+    <RespositoryType>git</RespositoryType>
+    <PackageTags>Mice, MiceDb</PackageTags>
+    <PackageLicenseExpression>ISC</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
